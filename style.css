@@ -32,11 +32,11 @@ button{
     font-size: large;
 }
 
-button:hover{
+button:hover{                                   /*When you hover on the button*/
     background-color: #ccd9ee;
     color: red;
     border: 0.5px solid red;
 }
-button:active{
+button:active{                                 /*when you click on the button*/
     background-color: #43546d;
 }
