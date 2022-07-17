@@ -24,19 +24,23 @@ h1{
     font-size: 70px;
 }
 button{
-    width: 170px;
-    height: 35px;
+    /* width: 170px;
+    height: 35px; */
+    padding: 1rem 2rem ;
+    margin: 0.5rem;
     font-family: inherit;   
-    background-color: transparent;
-    border-radius: 5px;
+    background-color: #e3eaf3 ;
+    border-radius: 10px;
     font-weight: bold;
     font-size: large;
+    border: 0.5px solid gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
 }
 
 button:hover{                                   /*When you hover on the button*/
     background-color: #ccd9ee;
     color: red;
-    border: 0.5px solid red;
 }
 button:active{                                 /*when you click on the button*/
     background-color: #43546d;
